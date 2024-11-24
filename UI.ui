@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>839</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="MainFrame">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>40</y>
+     <width>661</width>
+     <height>691</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame{
+	background-color: rgb(13, 15, 18);
+	border-radius :12px;
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Shape::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Shadow::Raised</enum>
+   </property>
+   <widget class="QFrame" name="MainFrame_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>40</y>
+      <width>561</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(43, 45, 48);
+	border-radius :12px;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>541</width>
+       <height>611</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page">
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>49</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+	color: rgb(255, 255, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string>Home</string>
+       </property>
+      </widget>
+      <widget class="QFrame" name="big_button_frame">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>541</width>
+         <height>611</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777214</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QFrame{
+	background-color: rgb(43, 45, 48);
+	border-radius :0px;
+}
+</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Shape::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Shadow::Raised</enum>
+       </property>
+       <widget class="QWidget" name="horizontalLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>541</width>
+          <height>611</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QPushButton" name="pushButton">
+           <property name="minimumSize">
+            <size>
+             <width>150</width>
+             <height>150</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>150</width>
+             <height>150</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">        QPushButton {
+            border: 10px solid rgb(73, 85, 88);  
+            border-radius: 50px;  
+            background-color: transparent;  
+            color: white;  
+            font-size: 16px;
+        }
+        QPushButton:hover {
+ 			border: 10px solid rgb(23, 25, 28); 
+        }
+        QPushButton:pressed {
+            border: 10px solid rgb(0, 0, 255); 
+        }
+		QPushButton:checked {
+    		border: 10px solid rgb(0, 0, 255); 
+		}
+		</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>pics/on-off-button.png</normaloff>pics/on-off-button.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>64</width>
+             <height>64</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <zorder>big_button_frame</zorder>
+      <zorder>label</zorder>
+     </widget>
+     <widget class="QWidget" name="page_2">
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>49</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+	color: rgb(255, 255, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string>Settings</string>
+       </property>
+      </widget>
+      <widget class="QFrame" name="frame">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>541</width>
+         <height>611</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QFrame{
+	background-color: rgb(43, 45, 48);
+	border-radius :0px;
+}
+</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Shape::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Shadow::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_14">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>200</y>
+          <width>111</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+	background-color: rgb(43, 45, 48);
+	color: rgb(255, 255, 255);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>70</y>
+          <width>331</width>
+          <height>231</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="1" column="1">
+          <widget class="QComboBox" name="camera_box">
+           <property name="styleSheet">
+            <string notr="true">QComboBox {
+    background-color: rgb(43, 45, 48);  /* Темный фон */
+    color: rgb(255, 255, 255);  /* Белый текст */
+    border: 1px solid rgb(0, 0, 127);  /* Зеленая рамка */
+    border-radius: 5px;
+    padding: 3px;
+}
+
+QComboBox:hover {
+    background-color: #2a2b2e;  /* Более светлый фон при наведении */
+    border: 1px solid #00bfff;  /* Голубая рамка при наведении */
+}
+
+QComboBox QAbstractItemView {
+    background-color: #1e1f22;  /* Темный фон для выпадающего списка */
+    color: white;  /* Белый текст */
+    selection-background-color: #3a3b3e;  /* Фон выбранного элемента */
+    selection-color: #00bfff;  /* Цвет текста выбранного элемента */
+    border: 1px solid rgb(0, 0, 127);  /* Зеленая рамка */
+}
+
+QComboBox::drop-down {
+    background-color: #1e1f22;
+    border-left: 1px solid rgb(0, 0, 127);  /* Левая граница кнопки для выпадающего списка */
+}
+
+QComboBox::down-arrow {
+    image: url(/path/to/your/arrow-icon.png);  /* Замените путь на путь к иконке стрелки, если нужно */
+    width: 12px;
+    height: 12px;
+}</string>
+           </property>
+           <property name="editable">
+            <bool>true</bool>
+           </property>
+           <property name="currentText">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QComboBox" name="select_quality">
+           <property name="styleSheet">
+            <string notr="true">QComboBox {
+    background-color: rgb(43, 45, 48);  /* Темный фон */
+    color: rgb(255, 255, 255);  /* Белый текст */
+    border: 1px solid rgb(0, 0, 127);  /* Зеленая рамка */
+    border-radius: 5px;
+    padding: 3px;
+}
+
+QComboBox:hover {
+    background-color: #2a2b2e;  /* Более светлый фон при наведении */
+    border: 1px solid #00bfff;  /* Голубая рамка при наведении */
+}
+
+QComboBox QAbstractItemView {
+    background-color: #1e1f22;  /* Темный фон для выпадающего списка */
+    color: white;  /* Белый текст */
+    selection-background-color: #3a3b3e;  /* Фон выбранного элемента */
+    selection-color: #00bfff;  /* Цвет текста выбранного элемента */
+    border: 1px solid rgb(0, 0, 127);  /* Зеленая рамка */
+}
+
+QComboBox::drop-down {
+    background-color: #1e1f22;
+    border-left: 1px solid rgb(0, 0, 127);  /* Левая граница кнопки для выпадающего списка */
+}
+
+QComboBox::down-arrow {
+    image: url(/path/to/your/arrow-icon.png);  /* Замените путь на путь к иконке стрелки, если нужно */
+    width: 12px;
+    height: 12px;
+}</string>
+           </property>
+           <property name="editable">
+            <bool>true</bool>
+           </property>
+           <property name="currentText">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_15">
+           <property name="styleSheet">
+            <string notr="true">QLabel{
+	color: rgb(255, 255, 255);
+}</string>
+           </property>
+           <property name="text">
+            <string>Отображать BBOX</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_4">
+           <property name="styleSheet">
+            <string notr="true">QLabel{
+	color: rgb(255, 255, 255);
+}</string>
+           </property>
+           <property name="text">
+            <string>Качество классификации</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_6">
+           <property name="styleSheet">
+            <string notr="true">QLabel{
+	color: rgb(255, 255, 255);
+}</string>
+           </property>
+           <property name="text">
+            <string>Отображать рамку</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QComboBox" name="show_frame">
+           <property name="styleSheet">
+            <string notr="true">QComboBox {
+    background-color: rgb(43, 45, 48);  /* Темный фон */
+    color: rgb(255, 255, 255);  /* Белый текст */
+    border: 1px solid rgb(0, 0, 127);  /* Зеленая рамка */
+    border-radius: 5px;
+    padding: 3px;
+}
+
+QComboBox:hover {
+    background-color: #2a2b2e;  /* Более светлый фон при наведении */
+    border: 1px solid #00bfff;  /* Голубая рамка при наведении */
+}
+
+QComboBox QAbstractItemView {
+    background-color: #1e1f22;  /* Темный фон для выпадающего списка */
+    color: white;  /* Белый текст */
+    selection-background-color: #3a3b3e;  /* Фон выбранного элемента */
+    selection-color: #00bfff;  /* Цвет текста выбранного элемента */
+    border: 1px solid rgb(0, 0, 127);  /* Зеленая рамка */
+}
+
+QComboBox::drop-down {
+    background-color: #1e1f22;
+    border-left: 1px solid rgb(0, 0, 127);  /* Левая граница кнопки для выпадающего списка */
+}
+
+QComboBox::down-arrow {
+    image: url(/path/to/your/arrow-icon.png);  /* Замените путь на путь к иконке стрелки, если нужно */
+    width: 12px;
+    height: 12px;
+}</string>
+           </property>
+           <property name="editable">
+            <bool>true</bool>
+           </property>
+           <property name="currentText">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QComboBox" name="bbox_show">
+           <property name="styleSheet">
+            <string notr="true">QComboBox {
+    background-color: rgb(43, 45, 48);  /* Темный фон */
+    color: rgb(255, 255, 255);  /* Белый текст */
+    border: 1px solid rgb(0, 0, 127);  /* Зеленая рамка */
+    border-radius: 5px;
+    padding: 3px;
+}
+
+QComboBox:hover {
+    background-color: #2a2b2e;  /* Более светлый фон при наведении */
+    border: 1px solid #00bfff;  /* Голубая рамка при наведении */
+}
+
+QComboBox QAbstractItemView {
+    background-color: #1e1f22;  /* Темный фон для выпадающего списка */
+    color: white;  /* Белый текст */
+    selection-background-color: #3a3b3e;  /* Фон выбранного элемента */
+    selection-color: #00bfff;  /* Цвет текста выбранного элемента */
+    border: 1px solid rgb(0, 0, 127);  /* Зеленая рамка */
+}
+
+QComboBox::drop-down {
+    background-color: #1e1f22;
+    border-left: 1px solid rgb(0, 0, 127);  /* Левая граница кнопки для выпадающего списка */
+}
+
+QComboBox::down-arrow {
+    image: url(/path/to/your/arrow-icon.png);  /* Замените путь на путь к иконке стрелки, если нужно */
+    width: 12px;
+    height: 12px;
+}</string>
+           </property>
+           <property name="editable">
+            <bool>true</bool>
+           </property>
+           <property name="currentText">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_5">
+           <property name="styleSheet">
+            <string notr="true">QLabel{
+	color: rgb(255, 255, 255);
+}</string>
+           </property>
+           <property name="text">
+            <string>Идентификатор веб-камеры</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <zorder>frame</zorder>
+      <zorder>label_3</zorder>
+     </widget>
+     <widget class="QWidget" name="page_4">
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>49</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+	color: rgb(255, 255, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string>Stats</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>50</y>
+         <width>81</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+	color: rgb(255, 255, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string>In progress</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_3">
+      <widget class="QLabel" name="label_13">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>60</y>
+         <width>281</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+	font-size: 18pt;
+	color: rgb(255, 255, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string>quneo.vi@gmail.com
+</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_16">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>120</y>
+         <width>481</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+	font-size: 18pt;
+	color: rgb(255, 255, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string>https://www.youtube.com/@vadiquneo171</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>10</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgb(43, 45, 48);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background-position: left center;
+    background-size: 200% 100%;
+    transition: all 0.5s;
+}
+
+QPushButton:hover {
+    background-position: right center;
+	background-color: rgb(120, 0, 0)
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>pics/close.png</normaloff>pics/close.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>10</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgb(43, 45, 48);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background-position: left center;
+    background-size: 200% 100%;
+    transition: all 0.5s;
+}
+
+QPushButton:hover {
+    background-position: right center;
+	background-color: rgb(0, 120, 0)
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>pics/minus-sign.png</normaloff>pics/minus-sign.png</iconset>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Name_Label">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>0</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;Alt Control. Dataset Master&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	color: rgb(255, 255, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Alt Control&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::TextFormat::AutoText</enum>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>52</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <property name="sizeConstraint">
+      <enum>QLayout::SizeConstraint::SetNoConstraint</enum>
+     </property>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_9">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Home&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+	color: rgb(255, 255, 255);
+    qproperty-alignment: 'AlignCenter';
+}</string>
+       </property>
+       <property name="text">
+        <string>Settings</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="Menu_button1">
+       <property name="minimumSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: rgb(43, 45, 48);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background-position: left center;
+    background-size: 200% 100%;
+    transition: all 0.5s;
+}
+
+QPushButton:hover {
+    background-position: right center;
+	background-color: rgb(0, 191, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>pics/home-agreement.png</normaloff>pics/home-agreement.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="Menu_button2">
+       <property name="minimumSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: rgb(43, 45, 48);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background-position: left center;
+    background-size: 200% 100%;
+    transition: all 0.5s;
+}
+
+QPushButton:hover {
+    background-position: right center;
+	background-color: rgb(0, 191, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>pics/setting-bulb.png</normaloff>pics/setting-bulb.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QPushButton" name="Menu_button4">
+       <property name="minimumSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: rgb(43, 45, 48);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background-position: left center;
+    background-size: 200% 100%;
+    transition: all 0.5s;
+}
+
+QPushButton:hover {
+    background-position: right center;
+	background-color: rgb(0, 191, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>pics/feedback.png</normaloff>pics/feedback.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_8">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;Home&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="whatsThis">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;ФЫВФЫ&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+	color: rgb(255, 255, 255);
+    qproperty-alignment: 'AlignCenter';
+}</string>
+       </property>
+       <property name="text">
+        <string>Home</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QPushButton" name="Menu_button3">
+       <property name="minimumSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: rgb(43, 45, 48);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background-position: left center;
+    background-size: 200% 100%;
+    transition: all 0.5s;
+}
+
+QPushButton:hover {
+    background-position: right center;
+	background-color: rgb(0, 191, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>pics/bar-chart.png</normaloff>pics/bar-chart.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_10">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Home&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+	color: rgb(255, 255, 255);
+    qproperty-alignment: 'AlignCenter';
+}</string>
+       </property>
+       <property name="text">
+        <string>Stats</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="label_11">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Home&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+	color: rgb(255, 255, 255);
+    qproperty-alignment: 'AlignCenter';
+}</string>
+       </property>
+       <property name="text">
+        <string>Feedback</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="Status">
+    <property name="geometry">
+     <rect>
+      <x>-20</x>
+      <y>30</y>
+      <width>31</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(43, 45, 48);
+	border-radius :12px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Status_1">
+    <property name="geometry">
+     <rect>
+      <x>-20</x>
+      <y>50</y>
+      <width>31</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(43, 45, 48);
+	border-radius :12px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Status_2">
+    <property name="geometry">
+     <rect>
+      <x>-20</x>
+      <y>140</y>
+      <width>31</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(43, 45, 48);
+	border-radius :12px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Status_3">
+    <property name="geometry">
+     <rect>
+      <x>-20</x>
+      <y>230</y>
+      <width>31</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(43, 45, 48);
+	border-radius :12px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Status_4">
+    <property name="geometry">
+     <rect>
+      <x>-20</x>
+      <y>320</y>
+      <width>31</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(43, 45, 48);
+	border-radius :12px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>660</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	color: rgb(255, 255, 255);
+    qproperty-alignment: 'AlignCenter';
+}</string>
+    </property>
+    <property name="text">
+     <string>beta 1.0</string>
+    </property>
+   </widget>
+   <zorder>pushButton_3</zorder>
+   <zorder>pushButton_4</zorder>
+   <zorder>Name_Label</zorder>
+   <zorder>MainFrame_2</zorder>
+   <zorder>gridLayoutWidget</zorder>
+   <zorder>Status</zorder>
+   <zorder>Status_1</zorder>
+   <zorder>Status_2</zorder>
+   <zorder>Status_3</zorder>
+   <zorder>Status_4</zorder>
+   <zorder>label_12</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

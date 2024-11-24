@@ -1,0 +1,13 @@
+PROJECT_VERSION = "alpha 1.4"
+
+WIDTH = 1920 # 1280
+HEIGHT = 1080 # 800
+
+MAXNUMHANDS = 1
+CAMERA_ID = 1
+BBOX_MULTIPLIER = 1.1
+
+FPS = 30
+cooldawn_time = 1
+
+SHOW_BBOX = True
