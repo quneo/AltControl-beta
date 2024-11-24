@@ -24,27 +24,32 @@ Basic Gestures
 1. Single Click (LMB)
 Simulates a left mouse button click at the pointer location.
 Gesture: Touch your thumb to the base of your index finger.
+
 2. Double Click
 Simulates a double left mouse button click at the pointer location.
 Gesture: Raise your index and middle fingers.
+
 3. Right Click (RMB)
 Simulates a right mouse button click.
 Gesture: Raise your index and thumb fingers, then extend your pinky finger.
+
 4. Left Mouse Button Hold (LMB Hold)
 Useful for dragging or selecting objects.
 Gesture: Perform the "OK" sign (connect your thumb and index finger in a circle).
 
 Window Management
-5. Move Window
+Move Window
 Allows you to move the currently active window.
 Gesture: Show a raised fist.
-6. Minimize Window
+
+Minimize Window
 Performed while moving a window.
 Gesture: Rotate your fist downward.
 
 Scrolling
-7. Scroll Pages
+Scroll Pages
 Controls vertical or horizontal scrolling.
 Gesture: Perform a pinch in the direction you want to scroll (move thumb and index fingers together).
+
 
 
