@@ -37,7 +37,6 @@ Gesture: Raise your index and thumb fingers, then extend your pinky finger.
 Useful for dragging or selecting objects.
 Gesture: Perform the "OK" sign (connect your thumb and index finger in a circle).
 
-Window Management
 5. Move Window
 Allows you to move the currently active window.
 Gesture: Show a raised fist.
@@ -46,7 +45,6 @@ Gesture: Show a raised fist.
 Performed while moving a window.
 Gesture: Rotate your fist downward.
 
-Scrolling
 7. Scroll Pages
 Controls vertical or horizontal scrolling.
 Gesture: Perform a pinch in the direction you want to scroll (move thumb and index fingers together).
