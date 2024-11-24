@@ -38,16 +38,16 @@ Useful for dragging or selecting objects.
 Gesture: Perform the "OK" sign (connect your thumb and index finger in a circle).
 
 Window Management
-Move Window
+5. Move Window
 Allows you to move the currently active window.
 Gesture: Show a raised fist.
 
-Minimize Window
+6. Minimize Window
 Performed while moving a window.
 Gesture: Rotate your fist downward.
 
 Scrolling
-Scroll Pages
+7. Scroll Pages
 Controls vertical or horizontal scrolling.
 Gesture: Perform a pinch in the direction you want to scroll (move thumb and index fingers together).
 
